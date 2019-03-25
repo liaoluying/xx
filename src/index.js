@@ -18,6 +18,10 @@ Vue.use(ElementUI,{size:'small',zIndex:3000});
 import 'element-ui/lib/theme-chalk/index.css';
 import './style/element-variables.scss'
 
+// 引入echarts
+import echarts from 'echarts'
+Vue.prototype.$echarts = echarts 
+
 import app from './App.vue';
 
 var vm = new Vue({
