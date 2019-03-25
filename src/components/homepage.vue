@@ -1,7 +1,7 @@
 <template>
   <div class="error-page">
-      <div class="error-code">4<span>0</span>4</div>
-      <div class="error-desc">啊哦~ 你所访问的页面不存在</div>
+      <div class="error-code">嘿<span>嘿</span>嘿</div>
+      <div class="error-desc">biubiubiu~</div>
       <div class="error-handle">
           <router-link to="/">
             <el-button type="primary" size="large">返回首页</el-button>
@@ -22,7 +22,7 @@ export default {
 </script>
 
 
-<style scoped>
+<style scoped lang="scss">
     .error-page{
         display: flex;
         justify-content: center;
@@ -37,7 +37,7 @@ export default {
         line-height: 1;
         font-size: 250px;
         font-weight: bolder;
-        color: #2d8cf0;
+        color: #0D2a60;
     }
     .error-code span{
         color: #00a854;
@@ -52,5 +52,8 @@ export default {
     }
     .error-btn{
         margin-left: 100px;
+    }
+    .el-button--primary{
+            background-color: #0D2a60!important;
     }
 </style>

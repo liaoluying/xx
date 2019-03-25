@@ -102,6 +102,7 @@ export default {
     ul:first-child{
       text-align: left;
       padding-top: 20px;
+      height:100%;
       .el-submenu{
         .el-menu-item{
           min-width: 150px;
@@ -119,8 +120,5 @@ export default {
 }
 .sidebar-el-menu:not(.el-menu--collapse){
     width: 165px;
-}
-.sidebar > ul {
-    height:100%;
 }
 </style>

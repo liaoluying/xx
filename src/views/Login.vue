@@ -50,16 +50,18 @@
   display: flex;
   justify-content: center;
   align-items:Center;
-  padding-top: 200px;
+  padding-top: 180px;
   .all{
     width: 400px;
     text-align: center;
     margin: auto;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, .08);
+    margin-bottom: 2px
   }
 }
 
 .el-tabs--border-card {
-  box-shadow: 0 7px 25px rgba(0, 0, 0, .08)!important;
+  //box-shadow: 0 7px 25px rgba(0, 0, 0, .08)!important;
   border: none!important;
   .el-tabs__header {
     .el-tabs__item.is-active{
