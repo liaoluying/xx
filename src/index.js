@@ -22,6 +22,9 @@ import './style/element-variables.scss'
 import echarts from 'echarts'
 Vue.prototype.$echarts = echarts 
 
+import axios from 'axios'
+Vue.prototype.$http = axios
+
 import app from './App.vue';
 
 var vm = new Vue({

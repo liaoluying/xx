@@ -48,10 +48,11 @@
 <style lang="scss">
 .wrapper{
     width: 100%;
-    height: 100vh;
-    overflow: hidden;
+    height: 110vh;
+    position: relative;
     .content-box{
         position: absolute;
+        white-space: nowrap;
         left: 166px;
         right: 0;
         top: 70px;
@@ -59,7 +60,6 @@
         transition: left .3s ease-in-out;
         background-color: #f0f0f0;
         height: 100%;
-        overflow: hidden;
         .content{
             width: auto;
             height: 100%;
